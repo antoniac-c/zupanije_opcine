@@ -47,13 +47,13 @@ insert into zupanija (zupan,naziv) values
 
 select * from zupanija;
 
-insert into opcina (naziv) values
-('bilje'),
-('ernestinovo'),
-('dugo selo'),
-('samobor'),
-('vir'),
-('nin');
+insert into opcina ( zupanija,naziv) values
+('1','bilje'),
+('1','ernestinovo'),
+('2','dugo selo'),
+('2','samobor'),
+('3','vir'),
+('3','nin');
 
 select * from opcina;
 
