@@ -66,9 +66,34 @@ insert into mjesto (naziv) values
 ('jastrebarsko'),
 ('sukosan'),
 ('zadar'),
-('bibinje');
+('bibinje'),
+('donji miholjac'),
+('obrovac'),
+('posedarje');
 
 select * from mjesto;
+
+update mjesto set naziv='beli manastir' where sifra=1;
+update mjesto set naziv='pirovac' where sifra=7;
+update mjesto set naziv='pakostane' where sifra=8;
+update mjesto set naziv='nin' where sifra=9;
+update mjesto set naziv='pag' where sifra=12;
+
+select * from mjesto ;
+
+delete from opcina where sifra>2;
+delete from opcina where sifra>1;
+
+select * from opcina;
+
+
+
+
+
+ 
+
+
+
 
 
 
